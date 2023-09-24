@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#productsList {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilos específicos para la navegación */
+
+nav {
+    background-color: #28A745;  /* Fondo verde para la navegación */
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #275a36;  /* Color morado al pasar el cursor */
+}
+
+/* Estilos para el pie de página */
+
+div {
+    margin-top: 40px;
+    background-color: #28A745;  /* Fondo coral para el pie de página */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

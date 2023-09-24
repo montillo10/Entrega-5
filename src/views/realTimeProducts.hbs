@@ -1,0 +1,37 @@
+<h1>{{message}}</h1>
+
+<!-- method="post" action="api/products" -->
+<h2>Formulario para agregar un nuevo producto:</h2>
+
+<form id="createProductForm">
+        <label for="title"> Título</label>
+        <input type="text" name="title" placeholder="titulo del producto">
+        <br>
+        <label for="description">Descripción</label>
+        <input type="text" name="description" placeholder="descripcion del producto">
+        <br>
+        <label for="code">Código</label>
+        <input type="text" name="code" placeholder="Código del producto">
+        <br>
+        <label for="price">Precio</label>
+        <input type="number" name="price" placeholder="precio del producto">
+        <br>
+        <label for="thumbnail">Ruta de acceso</label>
+        <input type="text" name="thumbnail" placeholder="Con o sin imagen">
+        <br>
+        <label for="category">Categoria</label>
+        <input type="text" name="category" placeholder="Categoria del producto">
+        <br>
+        <label for="stock">Stock</label>
+        <input type="number" name="stock" placeholder="Cantidad de productos">
+        <br>
+        <button type="submit">Crear producto</button>
+    </form>
+
+    </hr>
+
+<h2>Estos son los productos que tenemos actualizados:</h2>
+<li id="productsList"></li>
+
+<script src="/socket.io/socket.io.js"></script> <!-- Este script debe ir siempre antes que el script propio -->
+<script src="/js/realtimeproducts.js"></script>

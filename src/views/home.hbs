@@ -1,0 +1,26 @@
+<h1>{{message}}</h1>
+
+<h2>Estos son los productos que tenemos:</h2>
+ <p>Mensaje de parrafo de prueba</p>
+ <ul>
+
+ </ul>
+<div>
+    <ul>
+        {{#each product}}
+        <li>
+            <p>Id: {{this.id}}</p>
+            <p>Nombre: {{this.title}}</p>
+            <p>Descripción: {{this.description}}</p>
+            <p>Código: {{this.code}}</p>
+            <p>Precio: {{this.price}}</p>
+            <p>Categoria: {{this.category}}</p>
+            <p>Stock: {{this.stock}}</p>
+            <p>estado: {{this.status}}</p>
+            <p>Ruta de imagen: {{this.thumbnail}}</p>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+
+<script src="/js/home.js"></script>

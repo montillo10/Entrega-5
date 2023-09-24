@@ -1,0 +1,109 @@
+[
+	{
+		"id": 1,
+		"status": true,
+		"title": "Coca Cola 300cc",
+		"description": "Bebida gaseosa de 300cc con botella de vidrio",
+		"code": "COD001",
+		"price": 1111,
+		"stock": 1111,
+		"category": "Liquidos"
+	},
+	{
+		"id": 2,
+		"status": true,
+		"title": "Pepsi 300cc",
+		"description": "Bebida gaseosa de 300cc con botella de plastico",
+		"code": "COD002",
+		"price": 2222,
+		"stock": 2222,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 3,
+		"status": true,
+		"title": "Fanta 300cc",
+		"description": "Bebida gaseosa de 300cc con botella de tolueno",
+		"code": "COD003",
+		"price": 3333,
+		"stock": 3333,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 4,
+		"status": true,
+		"title": "Tai Manzana 300cc ",
+		"description": "La mejor puta bebida de la vida con botella de aire",
+		"code": "COD004",
+		"price": 4,
+		"stock": 4444,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 5,
+		"status": true,
+		"title": "Fruna Cola 300cc",
+		"description": "Bebida increiblemente gaseosa de 300cc con botella de obsidiana",
+		"code": "COD005",
+		"price": 5555,
+		"stock": 5555,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 6,
+		"status": true,
+		"title": "Pap 500cc",
+		"description": "Bebida gaseosa de 500cc con botella de greda",
+		"code": "COD006",
+		"price": 6666,
+		"stock": 6666,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 7,
+		"status": true,
+		"title": "Bilz 10cc",
+		"description": "Bebida gaseosa de 10cc con botella de nailon ",
+		"code": "COD007",
+		"price": 7777,
+		"stock": 7777,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 8,
+		"status": true,
+		"title": "producto prueba",
+		"description": "Este es un producto de prueba",
+		"code": "COD0008",
+		"price": 1234,
+		"stock": 5678,
+		"category": "Liquidos",
+		"thumbnail": "ruta por definir"
+	},
+	{
+		"id": 9,
+		"status": true,
+		"title": "platano",
+		"description": "Esto es una fruta",
+		"code": "COD0009",
+		"price": 9999,
+		"stock": 9999,
+		"category": "Frutas"
+	},
+	{
+		"id": 10,
+		"status": true,
+		"title": "Toddy cookies",
+		"description": "Galletas de plasticinas altamente deliciosas",
+		"code": "COD010",
+		"price": 10000,
+		"stock": 10000,
+		"category": "Galletas"
+	}
+]
